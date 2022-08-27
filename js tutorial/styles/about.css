@@ -1,0 +1,102 @@
+.outer{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to bottom left, rgb(104, 178, 203) 0%, rgb(19, 97, 111) 100%);
+    background-repeat: no-repeat;
+    display: flex
+    flex-direction :column;
+}
+
+.s1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+.s1-inner img{
+    height: 300px;
+}
+.s1 h1{
+    font-size:  80px;
+    color: white;
+}
+
+.s1-inner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.s1 p{
+    width: 50%;
+    margin: 30px;
+}
+
+.s2{
+    background-color: black;
+    color: gray;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.s2 h1{
+    color: white;
+    font-size: 50px;
+    line-height: 60px;
+    padding: 30px;
+    text-align: center;
+}
+.s2-inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center ;
+    width: 70%;
+}
+
+.s2-card{
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border: 2px solid gray;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.s2-card p{
+    font-size: 20px;
+}
+
+.s2-card .spanWhite{
+    color: white;
+}
+.spanColor1{
+    color: aqua;
+}
+
+.spanColor2{
+    color: rgb(51, 0, 255);
+}
+
+.spanColor3{
+    color: rgb(152, 18, 145);
+}
+
+.spanColor4{
+    color: rgb(113, 134, 21);
+}
+
+.spanColor5{
+    color: rgb(96, 7, 17);
+}
+
+.spanColor6{
+    color: rgb(27, 146, 35);
+}
+
+.spanColor7{
+    color: rgb(165, 55, 31);
+}

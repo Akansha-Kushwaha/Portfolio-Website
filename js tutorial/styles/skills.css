@@ -1,0 +1,44 @@
+.outer{
+    width: 100%;
+    min-height: 100vh;
+    background-color: aquamarine;
+}
+.skills-header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.skills-header h1{
+    font-size: 70px;
+    color: rgb(7, 46, 33);
+    font-weight: 600;
+}
+
+.skills-body{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-card{
+    background-color: rgb(192, 200, 207);
+    width: 410px;
+    border: 1px solid rgb(231, 227, 227);
+    border-radius: 10px;
+    margin: 20px;
+    
+}
+.skills-img{
+    width: 100%;
+    border-radius: 10px;
+    height: 200px;
+}
+
+.skills-text{
+    padding: 10px;
+    
+    text-align: center;
+}

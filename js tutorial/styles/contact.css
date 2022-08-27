@@ -1,0 +1,103 @@
+.outer{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, rgb(45, 158, 173) 0%, rgb(96, 26, 96) 100%);
+    background-repeat: no-repeat;
+}
+
+.contact_outer{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: inherit;
+}
+
+.contact_inner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+}
+.contact_outer .contact_inner p{
+    align-items: center;
+    justify-content: center;
+    color: rgb(41, 81, 147);
+    font-weight: 400;
+}
+
+
+.contact_innermost{
+    display: flex;
+    background-color: rgb(113, 211, 192);
+    margin: 20px;
+    border-radius: 10px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_innermost form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 10px;
+}
+
+.contact_innermost form input,
+.contact_innermost form textarea{
+    background-color: rgb(221,186,255);
+    color: gray;
+    font-size: 15px;
+    padding: 10px 15px;
+    margin: 10px 0px;
+    border: none;
+    border-radius: 20px;
+    width: 500px;
+    font-weight: 700;
+}
+
+.contact_innermost form textarea{
+    min-height: 150px;
+    max-height: 150px;
+    min-width: 500px;
+    max-width: 500px;
+}
+
+.contact_innermost form button{
+    width: 100px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: 700;
+    border: none;
+    font-size: 18px;
+}
+
+.contact_innermost form button:hover{
+    cursor: pointer;
+    transition: 1s all;
+    background-color: black;
+}
+
+.contact_innermost form p{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    color: blueviolet;
+    width: 100%;
+    margin: 0px;
+    padding: 10px 15px;
+    text-align: left;
+}
+
+.contact_inner p{
+    font-size: 50px;
+    margin: 0px;
+    color: white;
+    font-weight: 600;
+}

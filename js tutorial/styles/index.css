@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer{
+     background-color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 2px 0px;
+
+}
+
+.footer img{
+    width: 100px;
+}
+
+.footer{
+    font-weight: 700;
+    margin: 0px 20px;
+}
